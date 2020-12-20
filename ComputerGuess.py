@@ -2,8 +2,10 @@ import random
 
 
 def computer_guess(x):
+
     low = 1
     high = x
+    print(f'Guess the number between {low} and {high}')
     feedback = ' '
     while feedback != 'c':
         if low != high:
